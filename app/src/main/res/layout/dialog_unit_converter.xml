@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kitchen_converter"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="?attr/colorOnSurface" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <EditText
+            android:id="@+id/edit_value_from"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/value"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/spinner_unit_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_entries" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:src="@android:drawable/ic_menu_revert"
+        android:layout_marginVertical="8dp"
+        android:rotation="90" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_result_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/result"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange_primary" />
+
+        <Spinner
+            android:id="@+id/spinner_unit_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_entries" />
+    </LinearLayout>
+
+</LinearLayout>

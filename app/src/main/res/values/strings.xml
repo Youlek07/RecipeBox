@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecipeBox</string>
+
+    <string-array name="difficulty_entries">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="unit_entries">
+        <item>g</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>l</item>
+        <item>tbsp</item>
+        <item>tsp</item>
+        <item>cup</item>
+        <item>pcs</item>
+        <item>pinch</item>
+        <item>-</item>
+    </string-array>
+
+    <string name="search">Search</string>
+    <string name="no_results">No results</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="preparation">Preparation</string>
+    <string name="servings">Servings</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="shopping_list">Shopping List</string>
+    <string name="no_shopping_lists">No shopping lists</string>
+    <string name="add_to_shopping_list">Add to shopping list</string>
+    <string name="delete_all">Delete all</string>
+    <string name="confirm_delete_all">Are you sure you want to delete all items?</string>
+
+    <string name="today">Today</string>
+    <string name="recipe_of_the_day">RECIPE OF THE DAY</string>
+    <string name="no_recipe_of_the_day">Add a recipe to see Recipe of the Day!</string>
+    <string name="recipes_count">Recipes</string>
+    <string name="shopping_lists_count">Shopping Lists</string>
+
+    <string name="new_recipe">New Recipe</string>
+    <string name="click_to_add_image">Click to add photo</string>
+    <string name="recipe_name">Recipe name *</string>
+    <string name="description">Description</string>
+    <string name="category_hint">Category (e.g. Dinner)</string>
+    <string name="servings_hint">Servings *</string>
+    <string name="prep_time_hint">Prep. (min)</string>
+    <string name="cook_time_hint">Cook. (min)</string>
+    <string name="steps_hint">Preparation steps * (one per line)</string>
+    <string name="add_ingredient">Add ingredient</string>
+    <string name="ingredient_name">Ingredient name</string>
+    <string name="amount">Amount</string>
+    <string name="recipe_saved">Recipe saved successfully</string>
+    <string name="fill_required_fields">Please fill all required fields</string>
+
+    <string name="my_recipes">My Recipes</string>
+    <string name="no_recipes_yet">No recipes yet.\nAdd your first one!</string>
+
+    <string name="search_recipes_hint">Search for a recipe...</string>
+
+    <string name="options">Options</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="settings">Settings</string>
+    <string name="about_author">About Author</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="kitchen_converter">Kitchen Converter</string>
+    <string name="result">Result</string>
+    <string name="value">Value</string>
+
+    <string name="nav_my_recipes">My Recipes</string>
+    <string name="nav_api_recipes">Discover</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_shopping">Shopping</string>
+    <string name="nav_more">More</string>
+    <string name="author_info">RecipeBox\nClass 4TP\nJulian Machowski 8 (17)</string>
+    <string name="settings_empty">Nothing here yet :(</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+    <string name="category_other">Other</string>
+    <string name="shopping_list_created">Shopping list created!</string>
+    <string name="no_ingredients">No ingredients</string>
+    <string name="error_prefix">Error: </string>
+    <string name="servings_count">%1$d servings</string>
+</resources>
